@@ -4,7 +4,7 @@ module.exports = {
   config: {
     name: "ai",
     version: "1.0.0",
-    credits: "SHAHADAT SAHU", //please don't change credit
+    credits: "FAHIM", //please don't change credit
     cooldowns: 0,
     hasPermssion: 0,
     usePrefix: true
@@ -19,7 +19,7 @@ module.exports = {
     try {
       SAHU = (
         await axios.get(
-          "https://raw.githubusercontent.com/shahadat-sahu/SAHU-API/refs/heads/main/SAHU-API.json"
+          "https://raw.githubusercontent.com/fahim/SAHU-API/refs/heads/main/SAHU-API.json"
         )
       ).data;
     } catch {
